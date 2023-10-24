@@ -1,0 +1,66 @@
+
+body {
+    max-width: 100%;
+    margin: auto;
+    }
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+article {
+    flex: 1;
+    margin-right: 20px;
+}
+
+aside {
+    flex:1;
+}
+
+.sidebar-widget {
+    background-color:#333;
+    ;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+.food-image{
+    max-width: 100%;
+    height: auto;
+}
+
+article p, ol, li {
+    padding:3px;
+}
+/* Add media queries for responsiveness */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+    main {
+        flex-direction: column;
+    }
+
+    article {
+        margin-right: 0;
+    }
+}
+
